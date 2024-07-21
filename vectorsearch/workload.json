@@ -10,6 +10,17 @@
     ],
     "corpora": [
     {
+      "name": "delete_1k_1",
+      "base-url": "https://os-shatejas-benchmark-datasets-us-east-1.s3.amazonaws.com",
+      "documents": [
+        {
+          "source-file": "delete_1k_1.hdf5.bz2",
+          "source-format": "hdf5",
+          "document-count": 1000
+        }
+      ]
+    },
+    {
       "name": "cohere",
       "base-url": "https://dbyiw3u3rf9yr.cloudfront.net/corpora/vectorsearch/cohere-wikipedia-22-12-en-embeddings",
       "documents": [
