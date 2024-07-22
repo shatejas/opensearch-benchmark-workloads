@@ -61,6 +61,150 @@
           "document-count": 10000000
         }
       ]
+    },
+    {
+      "name": "delete_1k_1",
+      "base-url": "https://os-shatejas-benchmark-datasets-us-east-1.s3.amazonaws.com",
+      "target-index": "{{ target_index_name }}",
+      "documents": [
+        {
+          "source-file": "delete_1k_1.hdf5.bz2",
+          "source-format": "hdf5",
+          "document-count": 1000
+        }
+      ]
+    },
+    {
+      "name": "delete_100k_1",
+      "base-url": "https://os-shatejas-benchmark-datasets-us-east-1.s3.amazonaws.com",
+      "target-index": "{{ target_index_name }}",
+      "documents": [
+        {
+          "source-file": "delete_100k_1.hdf5.bz2",
+          "source-format": "hdf5",
+          "document-count": 100000
+        }
+      ]
+    },
+    {
+      "name": "delete_100k_10",
+      "base-url": "https://os-shatejas-benchmark-datasets-us-east-1.s3.amazonaws.com",
+      "target-index": "{{ target_index_name }}",
+      "documents": [
+        {
+          "source-file": "delete_100k_10.hdf5.bz2",
+          "source-format": "hdf5",
+          "document-count": 100000
+        }
+      ]
+    },
+    {
+      "name": "delete_100k_25",
+      "base-url": "https://os-shatejas-benchmark-datasets-us-east-1.s3.amazonaws.com",
+      "target-index": "{{ target_index_name }}",
+      "documents": [
+        {
+          "source-file": "delete_100k_25.hdf5.bz2",
+          "source-format": "hdf5",
+          "document-count": 1000
+        }
+      ]
+    },
+    {
+      "name": "delete_100k_50",
+      "base-url": "https://os-shatejas-benchmark-datasets-us-east-1.s3.amazonaws.com",
+      "target-index": "{{ target_index_name }}",
+      "documents": [
+        {
+          "source-file": "delete_100k_50.hdf5.bz2",
+          "source-format": "hdf5",
+          "document-count": 1000
+        }
+      ]
+    },
+    {
+      "name": "delete_1m_1",
+      "base-url": "https://os-shatejas-benchmark-datasets-us-east-1.s3.amazonaws.com",
+      "target-index": "{{ target_index_name }}",
+      "documents": [
+        {
+          "source-file": "delete_1m_1.hdf5.bz2",
+          "source-format": "hdf5",
+          "document-count": 1000000
+        }
+      ]
+    },
+    {
+      "name": "delete_1m_10",
+      "base-url": "https://os-shatejas-benchmark-datasets-us-east-1.s3.amazonaws.com",
+      "target-index": "{{ target_index_name }}",
+      "documents": [
+        {
+          "source-file": "delete_1m_10.hdf5.bz2",
+          "source-format": "hdf5",
+          "document-count": 1000000
+        }
+      ]
+    },
+    {
+      "name": "delete_1m_25",
+      "base-url": "https://os-shatejas-benchmark-datasets-us-east-1.s3.amazonaws.com",
+      "target-index": "{{ target_index_name }}",
+      "documents": [
+        {
+          "source-file": "delete_1m_25.hdf5.bz2",
+          "source-format": "hdf5",
+          "document-count": 1000000
+        }
+      ]
+    },
+    {
+      "name": "delete_1m_50",
+      "base-url": "https://os-shatejas-benchmark-datasets-us-east-1.s3.amazonaws.com",
+      "target-index": "{{ target_index_name }}",
+      "documents": [
+        {
+          "source-file": "delete_1m_50.hdf5.bz2",
+          "source-format": "hdf5",
+          "document-count": 1000000
+        }
+      ]
+    },
+    {
+      "name": "delete_1m_75",
+      "base-url": "https://os-shatejas-benchmark-datasets-us-east-1.s3.amazonaws.com",
+      "target-index": "{{ target_index_name }}",
+      "documents": [
+        {
+          "source-file": "delete_1m_75.hdf5.bz2",
+          "source-format": "hdf5",
+          "document-count": 1000000
+        }
+      ]
+    },
+    {
+      "name": "delete_1m_90",
+      "base-url": "https://os-shatejas-benchmark-datasets-us-east-1.s3.amazonaws.com",
+      "target-index": "{{ target_index_name }}",
+      "documents": [
+        {
+          "source-file": "delete_1m_90.hdf5.bz2",
+          "source-format": "hdf5",
+          "document-count": 1000000
+        }
+      ]
+    },
+    {
+      "name": "delete_1m_95",
+      "base-url": "https://os-shatejas-benchmark-datasets-us-east-1.s3.amazonaws.com",
+      "target-index": "{{ target_index_name }}",
+      "documents": [
+        {
+          "source-file": "delete_1m_95.hdf5.bz2",
+          "source-format": "hdf5",
+          "document-count": 1000000
+        }
+      ]
     }
   ],
     "operations": [
