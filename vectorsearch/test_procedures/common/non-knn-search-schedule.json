@@ -1,0 +1,8 @@
+{
+  "operation": {
+    "name": "non-knn-search",
+    "operation-type": "search",
+    "index": "{{ target_index_name | default('target_index') }}",
+    "body": {{ non_knn_query_body | default ({}) | tojson }}
+  }
+}

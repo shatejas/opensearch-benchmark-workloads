@@ -10,7 +10,7 @@
 
     "target_index_bulk_size": 100,
     "target_index_bulk_index_data_set_format": "hdf5",
-    "target_index_bulk_index_data_set_path": "/tmp/filter_restrictive.hdf5",
+    "target_index_bulk_index_data_set_corpus": "cohere-restrictive",
     "target_index_bulk_indexing_clients": 10,
     "target_dataset_filter_attributes": ["color", "taste", "age"],
     
@@ -69,10 +69,43 @@
         ]
     }
     },
-    
-    
-
+    "non_knn_query_body": {
+        "query": {
+            "bool": {
+                "should": [
+                    {
+                        "range": {
+                            "age": {
+                                "gte": 30,
+                                "lte": 70
+                            }
+                        }
+                    },
+                    {
+                        "term": {
+                            "color": "green"
+                        }
+                    },
+                    {
+                        "term": {
+                            "color": "blue"
+                        }
+                    },
+                    {
+                        "term": {
+                            "color": "yellow"
+                        }
+                    },
+                    {
+                        "term": {
+                            "taste": "sweet"
+                        }
+                    }
+                ]
+            }
+        }
+    },
     "query_data_set_format": "hdf5",
-    "query_data_set_path":"/tmp/filter_restrictive.hdf5", 
+    "query_data_set_corpus": "cohere-restrictive",
     "query_count": 100
   }

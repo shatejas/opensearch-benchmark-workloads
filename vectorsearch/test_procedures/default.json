@@ -60,4 +60,15 @@
         {{ benchmark.collect(parts="common/force-merge-schedule.json") }},
         {{ benchmark.collect(parts="common/search-only-schedule.json") }}
     ]
+},
+{
+    "name": "os-search-only",
+    "description": "Index vector search that requires training.",
+    "default": false,
+    "schedule": [
+        {{ benchmark.collect(parts="common/index-only-schedule.json") }},
+        {{ benchmark.collect(parts="common/force-merge-schedule.json") }},
+        {{ benchmark.collect(parts="common/search-only-schedule.json") }},
+        {{ benchmark.collect(parts="common/non-knn-search-schedule.json") }}
+    ]
 }
