@@ -109,6 +109,18 @@
           "document-count": 1000000
         }
       ]
+    },
+    {
+      "name": "multitenant-1m-50",
+      "base-url": "https://os-shatejas-benchmark-datasets-us-east-1.s3.amazonaws.com",
+      "target-index": "{{ target_index_name }}",
+      "documents": [
+        {
+          "source-file": "tenants-1m-50.hdf5.bz2",
+          "source-format": "hdf5",
+          "document-count": 1000000
+        }
+      ]
     }
   ],
     "operations": [

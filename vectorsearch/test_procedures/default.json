@@ -18,6 +18,14 @@
     ]
 },
 {
+    "name": "create-index-only",
+    "description": "Perform only indexing operation for vector search",
+    "default": false,
+    "schedule": [
+       {{ benchmark.collect(parts="common/create-index-only-schedule.json") }}
+    ]
+},
+{
     "name": "no-train-test-index-only",
     "description": "Perform only indexing operation for vector search",
     "default": false,
